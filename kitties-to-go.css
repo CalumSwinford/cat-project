@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.span{width: 100%;
+background-color: dodgerblue;
+color: white;}
+.span2{width: 100%;}
+.span3{width:50%;}
+.span4{width:50%;}
+.span5{width:100%;
+background-color: dodgerblue;
+}
+.container{
+       overflow: hidden;
+       max-height: 250px;
+       position: relative;
+    }
+    .main-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+.container img{
+       width: 100%;
+    }
+.box3{position: absolute;
+          bottom: 10px;
+          left: 10px;}
+#h1{
+  color:dodgerblue;
+}
+#h2{
+  color:dodgerblue;
+}

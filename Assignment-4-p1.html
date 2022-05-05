@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.span{width:100%;}
+.span2{width:100%;}
+.span3{width:100%;}
+.span4{width:50%;}
+.span5{width:50%;}
+.span6{width:100%;}
+
+.headerCats{
+  background-color: dodgerblue;
+width: auto;
+border: 1.5px;
+padding:50px;
+margin: 2px;
+}
+.Sec1{
+  float:left;
+  width: 500px;
+  border: 2px;
+  padding:50px;
+  margin: 1.5px;
+}
+
+
+h1{
+  color: white;
+}
+i{
+  color: white;
+}
+
+aside{
+  float:right;
+  width: 500px;
+  border: 2px;
+  padding:50px;
+  margin: 1.5px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: grey;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+h2{
+  color: lightblue;
+}
+section{
+  float: left;
+}
+.Footer{
+  background-color: grey;
+width: 100%;
+border: 0px;
+padding:0px;
+margin: 0px;
+margin-bottom: auto;
+}
+
+</style>
+<title>Kitties to go</title>
+</head>
+<body>
+
+  <div class="col span">
+
+
+  <img src="https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock2-banner-image.jpg"
+  alt="A logo">
+</div>
+<div class="col span2">
+<div class="headerCats">
+  <h1>About Kitties to go</h1>
+<h2><i> Seattles Premier Drive-Thru Cat Rentals</i></h2>
+</div>
+
+</div>
+<div class="col span3">
+<nav>
+
+    <ul>
+      <li><a href="file:///C:/Users/Calum/OneDrive/Desktop/Front%20End/html100/assign4/index.html">Home</a></li>
+      <li><a href="">Rates</a></li>
+      <li><a href="">Liability Release</a></li>
+      <li><a href="">Kitty Profiles</a></li>
+      <li><a href="">Book a Cat</a></li>
+    </ul>
+</nav>
+</div>
+<div class="col span4">
+
+
+  <section class="Sec1">
+    <header><h2>The cats a Kitties to go are former kittens who worked in the advertisement sector</h2></header>
+    <p>Many of these cats worked in the advertisement and film sector. They did not do well whhen returned to shelters. Many of them were more self-absorbed than typical cats, and often tried to relive their glory days. The dreams of kittens were put down by cats feeling insufficient that they did not were one of the cats selected to make a cameo in Denzel Washington film</p>
+    <h2>If there was a star system for rating cats from one to five, they'd make me a six.
+– Jean-Paul Laffakittie</h2>
+  <h2>The Kitties to Go Story</h2>
+  <p>We originally started in Long Island, unfortunately people with allergy threatened us with law suites, the cats wouldn't stop talking about the New England Patriots, laying on car horns or scratching people for bumping into them on the sidewalks. A distant traveller one day told us about a place called Seattle, a land where you can do what you want as long as you don't use your car horn, complain about people running late or become bothered by a confusing zoning system and have the anarchist May Day Parade where anarchist show up at a permitted time and follow a route laid out by Law Enforcement. We quickly moved to Seattle and found a home where nothing making sense was normal</p>
+  </section>
+
+</div>
+<div class="col span5">
+<aside>
+  <h2>cats in the news</h2>
+  <p>Chew iPad power cord why must they do
+that, grab pompom in mouth and put in
+water dish</p>
+  <a href="">Find Out More</a>
+  <br>
+  <p>Chew iPad power cord why must they do
+that, grab pompom in mouth and put in
+water dish.</p>
+  <a href="">Find Out More</a>
+  <h2>Cat of the Week</h2>
+<img src="https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock3-sidebar-cat.jpg"
+alt="a cat"
+>
+<p>Stare at imaginary bug love blinks and
+purr purr purr purr.
+</p>
+</aside>
+</div>
+
+<div class="col span6">
+<footer class="Footer">
+  <img src="https://raw.githubusercontent.com/UWFront-End-Cert/starters/master/lesson04-mock4-footer-image.jpg"
+  alt="A Logo"
+  >
+  <p>Vini vidi purri</p>
+  <nav>
+  <ul>
+    <li><a href="">Footer Link 1</a></li>
+    <li><a href="">Footer Link 2</a></li>
+    <li><a href="">Footer Link 3</a></li>
+    <li><a href="">Footer Link 4</a></li>
+  </ul>
+</nav>
+  <small>&copy; 2018 Kitties to Go, LLC Seattle, WA</small>
+</footer>
+</div>
+
+</body>
+</html>
