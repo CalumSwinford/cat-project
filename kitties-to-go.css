@@ -17,11 +17,13 @@
 background-color: dodgerblue;
 color: white;}
 .span2{width: 100%;}
-.span3{width:50%;}
-.span4{width:50%;}
+.span3{width:100%;
+text-align: center;}
+.span4{width:100%;}
 .span5{width:100%;
 background-color: dodgerblue;
 }
+.span4b{width: 100%;}
 .container{
        overflow: hidden;
        max-height: 250px;
@@ -62,3 +64,17 @@ li a:hover {
 #h2{
   color:dodgerblue;
 }
+.mainArt{transition: all .2s ease-in-out;
+}
+.mainArt:hover{transform: scale(1.4);
+  }
+  article{width:75%;
+  text-align: center;
+  margin: auto;}
+  aside{transition: all .2s ease-in-out;
+    text-align: center;
+    margin: auto;
+  }
+  aside:hover{transform: scale(1.4);
+    }
+    
